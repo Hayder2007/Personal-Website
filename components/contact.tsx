@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Send, Github } from "lucide-react"
+import { Mail, Send, Github, CheckCircle } from "lucide-react"
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -16,10 +16,33 @@ export function Contact() {
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch("https://formspree.io/f/xpwlnlny", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (response.ok) {
+        setIsSubmitted(true)
+        setFormData({ name: "", email: "", message: "" })
+        // Reset success message after 5 seconds
+        setTimeout(() => setIsSubmitted(false), 5000)
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -93,6 +116,13 @@ export function Contact() {
               </CardDescription>
             </CardHeader>
             <CardContent>
+              {isSubmitted && (
+                <div className="mb-4 p-3 bg-green-500/20 border border-green-500/50 rounded-lg flex items-center space-x-2">
+                  <CheckCircle className="h-4 w-4 text-green-400" />
+                  <span className="text-green-400 text-sm">Message sent successfully! I'll get back to you soon.</span>
+                </div>
+              )}
+
               <form onSubmit={handleSubmit} className="space-y-4">
                 <Input
                   name="name"
@@ -122,10 +152,11 @@ export function Contact() {
                 />
                 <Button
                   type="submit"
-                  className="w-full bg-[#00aaff] hover:bg-[#0088cc] text-black font-semibold transition-glow hover:glow-blue"
+                  disabled={isSubmitting}
+                  className="w-full bg-[#00aaff] hover:bg-[#0088cc] text-black font-semibold transition-glow hover:glow-blue disabled:opacity-50"
                 >
                   <Send className="h-4 w-4 mr-2" />
-                  Send Message
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </CardContent>

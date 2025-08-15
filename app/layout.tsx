@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   title: "Hayder Sadik - Builder, Trader, Hustler",
   description: "Personal portfolio of Hayder Sadik - A versatile professional who bridges technology and business",
   generator: "v0.app",
+  icons: {
+    icon: "/hayder-profile.png",
+    shortcut: "/hayder-profile.png",
+    apple: "/hayder-profile.png",
+  },
 }
 
 export default function RootLayout({
