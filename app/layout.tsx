@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   description: "Personal portfolio of Hayder Sadik - A versatile professional who bridges technology and business",
   generator: "v0.app",
   icons: {
-    icon: "/hayder-profile.png",
-    shortcut: "/hayder-profile.png",
-    apple: "/hayder-profile.png",
+    icon: "/hayder-profile-circular.png",
+    shortcut: "/hayder-profile-circular.png",
+    apple: "/hayder-profile-circular.png",
   },
 }
 
