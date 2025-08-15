@@ -41,7 +41,12 @@ export const Navigation = memo(() => {
     >
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="font-bold text-xl font-mono text-[#00aaff] transition-glow hover:glow-blue">HS</div>
+          <button
+            onClick={() => scrollToSection("hero")}
+            className="font-bold text-xl font-mono text-[#00aaff] transition-glow hover:glow-blue cursor-pointer bg-transparent border-none p-0"
+          >
+            HS
+          </button>
           <div className="hidden md:flex space-x-8">
             {["About", "Skills", "Crypto", "Projects", "Contact"].map((item) => (
               <Button
