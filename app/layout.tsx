@@ -17,7 +17,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Hayder Sadik - Builder, Trader, Hustler",
+  title: "Hayder Sadik",
   description: "Personal portfolio of Hayder Sadik - A versatile professional who bridges technology and business",
   generator: "v0.app",
   icons: {
