@@ -29,9 +29,9 @@ const projects = [
     status: "maintenance",
   },
   {
-    title: "Portal Hub",
-    description: "All-in-one crypto dashboard + portfolio portal.",
-    image: "/blockchain-growth-dashboard-dark.png",
+    title: "Psycho AI Trading Bot",
+    description: "Humanized Ai Crypto trading bot",
+    image: "/psycho-ai-trading-bot.png",
     demo: "",
     status: "coming-soon",
   },
