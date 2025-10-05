@@ -74,7 +74,7 @@ export function Contact() {
               </div>
               <div className="flex items-center space-x-3">
                 <Send className="h-5 w-5 text-[#00aaff]" />
-                <span className="text-gray-300">@musl_im</span>
+                <span className="text-gray-300">@hayderx0</span>
               </div>
             </div>
 
@@ -91,7 +91,7 @@ export function Contact() {
                 variant="outline"
                 size="icon"
                 className="border-[#00aaff] text-[#00aaff] hover:bg-[#00aaff] hover:text-black transition-glow hover:glow-blue bg-transparent"
-                onClick={() => window.open("https://t.me/musl_im", "_blank")}
+                onClick={() => window.open("https://t.me/hayderx0", "_blank")}
               >
                 <Send className="h-5 w-5" />
               </Button>

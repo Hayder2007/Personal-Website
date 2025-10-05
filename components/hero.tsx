@@ -60,7 +60,7 @@ export function Hero() {
                 variant="outline"
                 size="icon"
                 className="border-[#00aaff] text-[#00aaff] hover:bg-[#00aaff] hover:text-black transition-glow hover:glow-blue bg-transparent"
-                onClick={() => window.open("https://t.me/musl_im", "_blank")}
+                onClick={() => window.open("https://t.me/hayderx0", "_blank")}
               >
                 <SendIcon className="h-5 w-5" />
               </Button>

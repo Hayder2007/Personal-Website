@@ -11,7 +11,7 @@ const highlights = [
     icon: BarChart3,
     title: "Technical & Fundamental Analysis",
     description:
-      "Deep market research combining on-chain metrics, technical indicators, and fundamental project analysis.",
+      "Deep market research combining on-chain metrics, technical Analysis, and fundamental project analysis.",
   },
   {
     icon: Shield,
