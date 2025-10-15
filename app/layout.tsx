@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { IBM_Plex_Mono, Inter } from "next/font/google"
 import "./globals.css"
+import { DesktopOnlyOverlay } from "@/components/desktop-only-overlay"
 
 const ibmPlexMono = IBM_Plex_Mono({
   subsets: ["latin"],
@@ -34,7 +35,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${ibmPlexMono.variable} ${inter.variable}`}>
-      <body className="antialiased bg-black text-white">{children}</body>
+      <body className="antialiased bg-black text-white">
+        <DesktopOnlyOverlay />
+        {children}
+      </body>
     </html>
   )
 }
