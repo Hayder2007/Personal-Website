@@ -41,9 +41,7 @@ export function Hero() {
                 Innovator & Executor
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                A versatile professional bridging technology and business, delivering high-impact solutions through
-                code, strategic insight, and market expertise. Turning complex ideas into scalable reality and
-                consistent profit.
+                A Versatile professional bridging technology and business, delivering impactful solutions &amp; turning complex ideas into reality.
               </p>
             </div>
 
