@@ -10,7 +10,7 @@ const skillCategories = [
   {
     icon: TrendingUp,
     title: "Trading & Market Analysis",
-    skills: ["Technical Analysis", "Fundamental Analysis", "Strategy Development", "Portfolio Design"],
+    skills: ["Technical Analysis", "Fundamental Analysis", "Macro Analysis", "Strategy Development"],
   },
   {
     icon: Users,

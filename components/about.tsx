@@ -6,9 +6,7 @@ export function About() {
         <div className="glass-panel rounded-2xl p-8 transition-glow hover:glow-blue text-max-width">
           <div className="space-y-6 text-lg leading-relaxed text-gray-300">
             <p>
-              I'm a hands-on doer who thrives at the intersection of technology and business. Whether I'm writing code,
-              managing complex projects, analyzing crypto markets, or streamlining business operations, I bring the same
-              methodical approach and drive for results.
+              I'm a hands-on doer who thrives at the intersection of technology and business.
             </p>
             <p>
               My strength lies in adaptability and effectiveness rather than narrow specialization. I've learned that
