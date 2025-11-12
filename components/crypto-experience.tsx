@@ -5,7 +5,7 @@ const highlights = [
   {
     icon: TrendingUp,
     title: "Profitable Trading",
-    description: "1.5+ years of consistent profitability through disciplined strategy execution and risk management.",
+    description: "2+ years of consistent profitability through disciplined strategy execution and risk management.",
   },
   {
     icon: BarChart3,
