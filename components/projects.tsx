@@ -7,33 +7,20 @@ import { memo } from "react"
 
 const projects = [
   {
+    title: "Signex",
+    description:
+      "A Trustless P2P Crypto & NFT Exchange. Swap assets directly via smart-contract escrow with no middleman risks.",
+    image: "/signex-dashboard.png",
+    demo: "",
+    status: "live",
+  },
+  {
     title: "ChainFlow",
     description:
       "One platform to track your personal growth and manage decentralized workstreams — all verified onchain.",
     image: "/chainflow-landing.png",
     demo: "https://www.chainflow.store/",
     status: "live",
-  },
-  {
-    title: "Proof of Discipline",
-    description: "Web3 staking project that gamifies discipline and rewards users for consistency.",
-    image: "/proof-of-discipline-landing.png",
-    demo: "https://podiscipline.vercel.app/",
-    status: "live",
-  },
-  {
-    title: "Token Scanner Bot",
-    description: "Realtime alerts for new tokens on Base & Ethereum via Telegram.",
-    image: "/telegram-crypto-bot.png",
-    demo: "",
-    status: "maintenance",
-  },
-  {
-    title: "Psycho AI Trading Bot",
-    description: "Humanized Ai Crypto trading bot",
-    image: "/psycho-ai-trading-bot.png",
-    demo: "",
-    status: "coming-soon",
   },
 ]
 
