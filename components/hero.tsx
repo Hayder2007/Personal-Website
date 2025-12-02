@@ -19,7 +19,7 @@ export function Hero() {
               <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-[#00aaff] transition-glow hover:glow-blue-strong animate-pulse-glow">
                 <Image
                   src="/hayder-profile.png"
-                  alt="Hayder Sadik"
+                  alt="Hayder"
                   width={128}
                   height={128}
                   className="w-full h-full object-cover"
@@ -28,20 +28,16 @@ export function Hero() {
             </div>
 
             <div className="space-y-2 text-left flex-1">
-              <h1 className="text-4xl md:text-6xl font-bold font-mono tracking-tight text-white">Hayder Sadik</h1>
-              <p className="text-lg font-sans italic text-gray-300">
-                "Building the future of technology and digital markets."
-              </p>
+              <h1 className="text-4xl md:text-6xl font-bold font-mono tracking-tight text-white">Hayder</h1>
+              <p className="text-lg font-sans italic text-[#00aaff]">"Trading, Creating, building"</p>
             </div>
           </div>
 
           <div className="space-y-6 text-left">
             <div className="space-y-4">
-              <p className="text-2xl md:text-3xl text-[#00aaff] font-semibold">
-                Innovator & Executor
-              </p>
+             
               <p className="text-lg text-gray-300 leading-relaxed">
-                A Versatile professional bridging technology and business, delivering impactful solutions &amp; turning complex ideas into reality.
+               Founder @Signex & @ChainFlow_xyz | Crypto Markets: FA/TA/MA | Web3 Builder
               </p>
             </div>
 

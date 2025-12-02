@@ -6,17 +6,8 @@ export function About() {
         <div className="glass-panel rounded-2xl p-8 transition-glow hover:glow-blue text-max-width">
           <div className="space-y-6 text-lg leading-relaxed text-gray-300">
             <p>
-              I'm a hands-on doer who thrives at the intersection of technology and business.
-            </p>
-            <p>
-              My strength lies in adaptability and effectiveness rather than narrow specialization. I've learned that
-              the most valuable skill is the ability to quickly understand new domains, identify what matters most, and
-              execute with precision. This mindset has served me well across diverse challenges.
-            </p>
-            <p>
-              From building scalable applications to navigating volatile markets, I focus on understanding the
-              fundamentals, making data-driven decisions, and delivering measurable outcomes. I'm not just a specialist
-              in one area I'm an operator who gets things done.
+              I’m a crypto trader and Web3 builder. I dive deep into market fundamentals, technicals, and macro trends and share my insights on my{" "}
+              <a href="https://x.com/0xHayder"><span className="text-[#00aaff] font-semibold">X(Twitter)</span></a> page. Beyond trading, I build projects and contribute to the Web3 ecosystem. Always open for collaboration and meaningful discussion.
             </p>
           </div>
         </div>

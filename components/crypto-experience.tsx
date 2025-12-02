@@ -11,7 +11,7 @@ const highlights = [
     icon: BarChart3,
     title: "Technical & Fundamental Analysis",
     description:
-      "Deep market research combining on-chain metrics, technical Analysis, and fundamental project analysis.",
+      "Deep market research combining on-chain metrics, technical, fundamental and Macro analysis.",
   },
   {
     icon: Shield,
@@ -53,13 +53,7 @@ export function CryptoExperience() {
           ))}
         </div>
         <div className="mt-12 text-center">
-          <div className="glass-panel rounded-2xl p-8 transition-glow hover:glow-blue">
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              My crypto journey is built on analytical precision and adaptable execution. I combine technical expertise,
-              blockchain development skills, and market insight to navigate evolving ecosystems, identify opportunities
-              early, and deliver measurable results across trading and decentralized solutions.
-            </p>
-          </div>
+         
         </div>
       </div>
     </section>

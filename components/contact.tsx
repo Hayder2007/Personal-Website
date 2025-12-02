@@ -62,7 +62,7 @@ export function Contact() {
             <div className="glass-panel rounded-2xl p-6 transition-glow hover:glow-blue">
               <h3 className="text-xl font-semibold mb-4 text-white">Let's Connect</h3>
               <p className="text-gray-300 leading-relaxed">
-                Whether you're looking for a versatile developer, need help with a project, or want to discuss market
+                Whether you're looking for a versatile person, need help with a project, or want to discuss market
                 opportunities, I'm always open to meaningful conversations.
               </p>
             </div>

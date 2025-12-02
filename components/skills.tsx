@@ -5,12 +5,12 @@ const skillCategories = [
   {
     icon: Code,
     title: "Technology & Development",
-    skills: ["Front-End Development", "JavaScript / TypeScript", "API Integration", "Web3 Integration"],
+    skills: ["Front-End Development", "JavaScript / TypeScript", "Blockchain Development", "Web3 Integration"],
   },
   {
     icon: TrendingUp,
     title: "Trading & Market Analysis",
-    skills: ["Technical Analysis", "Fundamental Analysis", "Macro Analysis", "Strategy Development"],
+    skills: ["Technical Analysis", "Fundamental Analysis", "Macro Analysis", "Market Research"],
   },
   {
     icon: Users,
@@ -58,9 +58,7 @@ export function Skills() {
         <div className="text-center">
           <div className="glass-panel rounded-2xl p-8 transition-glow hover:glow-blue">
             <p className="text-lg text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              I'm a versatile operator who bridges gaps and delivers results. Whether it's building tools that solve
-              real problems, managing complex programs, or contributing to projects that need both technical depth and
-              business acumen, I focus on what matters most: creating value and driving outcomes.
+              I'm versatile across multiple streams i Create,trade,build.
             </p>
           </div>
         </div>
