@@ -37,7 +37,7 @@ export function Hero() {
             <div className="space-y-4">
              
               <p className="text-lg text-gray-300 leading-relaxed">
-               Founder @Signex & @ChainFlow_xyz | Crypto Markets: FA/TA/MA | Web3 Builder
+               Founder <span style={{ color: '#00aaff'}}>@</span><a href="https://signex.site" style={{ color: '#00aaff'}}>Signex</a> | Built <a href="https://chainflow.store" style={{ color: '#00aaff'}}>ChainFlow</a> & <a href="https://vaulta.website" style={{ color: '#00aaff'}}>Vaulta</a> | Crypto Markets: FA/TA/MA | Web3 Builder
               </p>
             </div>
 
