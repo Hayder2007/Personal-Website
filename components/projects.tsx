@@ -17,7 +17,7 @@ const projects = [
   {
     title: "ChainFlow",
     description:
-      "One platform to track your personal growth and manage decentralized workstreams — all verified onchain.",
+      "Your one platform to track your personal growth and manage decentralized workstreams onchain.",
     image: "/chainflow-landing.png",
     demo: "https://www.chainflow.store/",
     status: "live",
