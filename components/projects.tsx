@@ -11,7 +11,7 @@ const projects = [
     description:
       "A Trustless P2P Crypto & NFT Exchange. Swap assets directly via smart-contract escrow with no middleman risks.",
     image: "/signex-dashboard.png",
-    demo: "",
+    demo: "https://signex.site",
     status: "live",
   },
   {
