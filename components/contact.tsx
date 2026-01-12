@@ -70,7 +70,7 @@ export function Contact() {
             <div className="glass-panel rounded-2xl p-6 space-y-4 transition-glow hover:glow-blue">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-[#00aaff]" />
-                <span className="text-gray-300">haydersadik2007@gmail.com</span>
+                <span className="text-gray-300">0xh4yder@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Send className="h-5 w-5 text-[#00aaff]" />

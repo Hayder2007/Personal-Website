@@ -22,6 +22,14 @@ const projects = [
     demo: "https://www.chainflow.store/",
     status: "live",
   },
+  {
+    title: "Vaulta — Your Complete Financial Picture",
+    description:
+      "Track your crypto wallets across 12+ chains, traditional assets, and liabilities in one dashboard, and manage your portfolio seamlessly.",
+    image: "/vaulta-dashboard.jpg",
+    demo: "https://Vaulta.website",
+    status: "live",
+  },
 ]
 
 const ProjectCard = memo(({ project, index }: { project: (typeof projects)[0]; index: number }) => (
@@ -76,10 +84,15 @@ export const Projects = memo(() => {
     <section id="projects" className="section-padding relative z-10">
       <div className="content-max-width">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white font-mono">Projects</h2>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
-          {projects.map((project, index) => (
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
+          {projects.slice(0, 2).map((project, index) => (
             <ProjectCard key={project.title} project={project} index={index} />
           ))}
+        </div>
+        <div className="flex justify-center mt-8">
+          <div className="w-full lg:max-w-2xl lg:w-1/2">
+            <ProjectCard project={projects[2]} index={2} />
+          </div>
         </div>
       </div>
     </section>
