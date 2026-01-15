@@ -16,8 +16,7 @@ const projects = [
   },
   {
     title: "ChainFlow",
-    description:
-      "Your one platform to track your personal growth and manage decentralized workstreams onchain.",
+    description: "Your one platform to track your personal growth and manage decentralized workstreams onchain.",
     image: "/chainflow-landing.png",
     demo: "https://www.chainflow.store/",
     status: "live",
@@ -28,6 +27,13 @@ const projects = [
       "Track your crypto wallets across 12+ chains, traditional assets, and liabilities in one dashboard, and manage your portfolio seamlessly.",
     image: "/vaulta-dashboard.jpg",
     demo: "https://Vaulta.website",
+    status: "live",
+  },
+  {
+    title: "Bitberg Terminal",
+    description: "Professional Bloomberg-style cryptocurrency terminal with real-time data and Analytics",
+    image: "/bitberg-terminal.jpg",
+    demo: "https://bitberg.io",
     status: "live",
   },
 ]
@@ -89,10 +95,10 @@ export const Projects = memo(() => {
             <ProjectCard key={project.title} project={project} index={index} />
           ))}
         </div>
-        <div className="flex justify-center mt-8">
-          <div className="w-full lg:max-w-2xl lg:w-1/2">
-            <ProjectCard project={projects[2]} index={2} />
-          </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto mt-8">
+          {projects.slice(2).map((project, index) => (
+            <ProjectCard key={project.title} project={project} index={index + 2} />
+          ))}
         </div>
       </div>
     </section>
